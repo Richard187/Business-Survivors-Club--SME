@@ -1,0 +1,32 @@
+{
+  "name": "sme-connect-sms-api",
+  "version": "1.0.0",
+  "description": "Frontline SMS API for SME Connect platform",
+  "main": "sms-api.js",
+  "scripts": {
+    "start": "node sms-api.js",
+    "dev": "nodemon sms-api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "frontline",
+    "sme",
+    "zambia",
+    "api"
+  ],
+  "author": "SME Connect Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
